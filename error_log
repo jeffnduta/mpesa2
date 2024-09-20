@@ -1,0 +1,93 @@
+[18-Sep-2024 08:15:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'stretcha_ddd'@'rs8.rcnoc.com' (using password: YES) in /home6/stretcha/wordsmith/process_payment.php:9
+Stack trace:
+#0 /home6/stretcha/wordsmith/process_payment.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home6/stretcha/wordsmith/process_payment.php on line 9
+[18-Sep-2024 08:28:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home6/stretcha/wordsmith/process_payment.php:8
+Stack trace:
+#0 /home6/stretcha/wordsmith/process_payment.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 09:23:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home6/stretcha/wordsmith/process_payment.php:8
+Stack trace:
+#0 /home6/stretcha/wordsmith/process_payment.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 09:50:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home6/stretcha/wordsmith/process_payment.php:8
+Stack trace:
+#0 /home6/stretcha/wordsmith/process_payment.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 09:55:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home6/stretcha/wordsmith/process_payment.php:8
+Stack trace:
+#0 /home6/stretcha/wordsmith/process_payment.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 09:55:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1698): Access denied for user 'root'@'localhost' in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 09:59:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'rs8.rcnoc.com' is not allowed to connect to this MariaDB server in /home6/stretcha/wordsmith/process_payment.php on line 8
+[18-Sep-2024 11:16:02 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:16:06 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:16:11 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:16:13 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:16:15 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:16:28 UTC] PHP Notice:  Trying to get property 'access_token' of non-object in /home6/stretcha/wordsmith/process_payment.php on line 34
+[18-Sep-2024 11:20:54 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:20:54 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:21:02 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:23:21 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:40:30 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:43:52 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 11:51:45 UTC] PHP Notice:  Undefined index: ResponseCode in /home6/stretcha/wordsmith/process_payment.php on line 139
+[18-Sep-2024 12:04:06 UTC] Payment failed with message: The initiator information is invalid.
+[18-Sep-2024 12:05:34 UTC] Payment failed with message: The initiator information is invalid.
+[18-Sep-2024 12:44:53 UTC] M-Pesa Response: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2299844
+                    [CheckoutRequestID] => ws_CO_18092024154438249745340525
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+[18-Sep-2024 12:44:53 UTC] Payment failed with message: DS timeout user cannot be reached
+[18-Sep-2024 12:53:41 UTC] M-Pesa Response: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 1c5b-4ba8-815c-ac45c57a3db02470813
+                    [CheckoutRequestID] => ws_CO_18092024155315725745340525
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+
+[18-Sep-2024 12:53:41 UTC] Payment failed: Canceled by user
+[18-Sep-2024 13:07:27 UTC] M-Pesa Response: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 8ed5-4489-a67f-881890b925f2300172
+                    [CheckoutRequestID] => ws_CO_18092024160723678745340525
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+[18-Sep-2024 13:07:27 UTC] Payment failed with message: DS timeout user cannot be reached
