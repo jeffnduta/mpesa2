@@ -14,8 +14,8 @@ if ($conn->connect_error) {
 
 // Daraja API access token function
 function generateAccessToken() {
-    $consumerKey = '4DA3iPuTWAm5V2UiIcqlJCAjYKKlo8q0KFsRHEdLEqgXKK3v'; // Replace with your actual Consumer Key
-    $consumerSecret = 'mt92x54vl9RG7cqeaHry5oofPVLoNZDQ2zQ3NSGUNizjxuPk7snjjnkm4AcPOixW'; // Replace with your actual Consumer Secret
+    $consumerKey = 'z5uRiWaGDtGz3SdnJDkZ493jEoe1FGNcpHmJbH72aQw5MTzs'; // Replace with your actual Consumer Key
+    $consumerSecret = 'sgAKiGfmSW7T9icJNABGiC1ruzm39meYUpJfqmKiCzaRDOftVZxDEGihAkR5HYV1'; // Replace with your actual Consumer Secret
     $credentials = base64_encode($consumerKey . ':' . $consumerSecret);
 
     $url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
